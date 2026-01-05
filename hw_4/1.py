@@ -20,7 +20,9 @@ def manu_A_B():
             f.write(f"B:{B}\n")
             f.close()
         elif option == 'L' or option == 'l':
+            #f enables running on lines
             f = open("file.txt", mode='r', encoding="utf8")
+            #thus:
             for line in f:
                 print(line, end='')
             f.close()
