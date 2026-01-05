@@ -29,6 +29,9 @@ def manu_A_B():
         elif option == 'Q' or option == 'q':
             print("Goodbye")
             break
+        else:
+            print("Wrong choise\nTry again.")
+
 def main():
     manu_A_B()
 
