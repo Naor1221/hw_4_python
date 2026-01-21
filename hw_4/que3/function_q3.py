@@ -11,7 +11,7 @@ def find_first_idx(let, name_lst)->int:
 
 def hangman_game():
     list_words=["game","drink","jym","bartender"]
-    len_lst=len(list_words)
+    
 
     program_pick=r.randint(0,len_lst-1)
 
